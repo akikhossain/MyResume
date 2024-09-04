@@ -150,17 +150,22 @@
     <!-- main section -->
     <main
       class="bg-gradient-to-r from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 to-90%"
-      style=""
     >
-      <section class="mt-[130px] p-[150px] rounded-xl max-w-screen-xl mx-auto">
-        <h3 class="text-center font-bold text-4xl mb-10">About Me</h3>
-        <p class="text-center text-gray-500 text-xl leading-7">
+      <!-- About Me Section -->
+      <section
+        class="mt-10 md:mt-[130px] p-6 md:p-[100px] rounded-xl max-w-screen-xl mx-auto"
+      >
+        <h3 class="text-center font-bold text-2xl md:text-4xl mb-6 md:mb-10">
+          About Me
+        </h3>
+        <p class="text-center text-gray-500 text-md md:text-xl leading-7">
           To leverage my skills in web development and contribute to creating
-          visually <br />
-          appealing and user-friendly websites. Seeking an opportunity for
-          professional growth and learning in a dynamic work environment.
+          visually appealing and user-friendly websites. Seeking an opportunity
+          for professional growth and learning in a dynamic work environment.
         </p>
-        <div class="flex justify-around text-center mt-14 text-2xl">
+        <div
+          class="flex flex-col md:flex-row justify-around text-center mt-8 md:mt-14 text-lg md:text-2xl space-y-6 md:space-y-0"
+        >
           <div class="about-info">
             <h4 class="info-title">Name:</h4>
             <p class="font-bold mt-1">Akik Hossain</p>
@@ -180,200 +185,162 @@
         </div>
       </section>
 
-      <!-- about section -->
+      <!-- About Section -->
       <section
         id="about"
-        class="p-[150px] rounded-xl max-w-screen-xl mx-auto"
-        id="about"
+        class="p-6 md:p-[100px] rounded-xl max-w-screen-xl mx-auto"
       >
-        <h2 class="text-center font-bold text-4xl mb-32 uppercase">About</h2>
+        <h2
+          class="text-center font-bold text-2xl md:text-4xl mb-16 md:mb-32 uppercase"
+        >
+          About
+        </h2>
 
-        <div class="flex content-center items-center gap-16">
+        <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           <div class="about_img">
             <img
-              class="w-[4000px] h-[700px] rounded-full drop-shadow-sm hover:drop-shadow-2xl"
+              class="w-full h-auto rounded-full drop-shadow-sm hover:drop-shadow-2xl"
               src="images/formal.png"
               alt=""
             />
           </div>
-
-          <div class="about_text">
-            <h2 class="font-bold text-3xl mb-8">Hello</h2>
+          <div class="about_text text-center lg:text-left">
+            <h2 class="font-bold text-2xl md:text-3xl mb-6 md:mb-8">Hello</h2>
             <p class="font-semibold text-md text-justify">
-              I'm Akik Hossain, a recent Computer Science and Engineering
-              graduate from the International University of Business Agriculture
-              and Technology with a CGPA of 3.77. I completed a Trainee Program
-              at Kodeeo Limited, gaining hands-on experience in Laravel, PHP,
-              MySQL, and OOP. I led the development of an Employee Management
-              System with role-based access and a Library Management System with
-              a user-friendly interface. Proficient in C++, C, JavaScript,
-              HTML5, CSS3, React, Tailwind, Bootstrap, and Laravel, I'm eager to
-              contribute my skills to a dynamic work environment and create
-              visually appealing websites.
+              I'm Akik Hossain, a Computer Science and Engineering graduate
+              currently working as a Full Stack Laravel Developer. Proficient in
+              Laravel, PHP, JavaScript, HTML5, CSS3, React, Tailwind, and
+              Bootstrap, I have hands-on experience building dynamic web
+              applications and managing both front-end and back-end development.
+              I'm eager to continue contributing my skills to a dynamic work
+              environment, creating efficient, secure, and visually appealing
+              websites.
             </p>
           </div>
         </div>
       </section>
 
-      <!-- what i do section -->
-
+      <!-- What I Do Section -->
       <section
         id="services"
-        class="mt-[100px] py-[30px] px-[150px] container mx-auto"
+        class="mt-10 md:mt-[100px] py-10 md:py-[30px] px-6 md:px-[150px] container mx-auto"
       >
-        <h3 class="text-center font-bold text-4xl mb-8 uppercase">What I Do</h3>
+        <h3
+          class="text-center font-bold text-2xl md:text-4xl mb-6 md:mb-8 uppercase"
+        >
+          What I Do
+        </h3>
         <div class="text-center">
-          <p class="text-gray-500 text-xl leading-7 mb-8">
-            I have more than 10 years experience building software for clients
-            all over the world. Below is a quick <br />
-            overview of my main technical skill sets and technologies i use.
-            Want to find out more about my experience? <br />
-            Check out my online resume and project portfolio
+          <p class="text-gray-500 text-md md:text-xl leading-7 mb-6 md:mb-8">
+            I have more than 10 years experience building software... Check out
+            my online resume and project portfolio.
           </p>
         </div>
-        <div class="grid grid-cols-4 gap-6 mt-12">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 md:mt-12"
+        >
+          <!-- Skill Cards -->
           <div
-            class="p-8 leading-7 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:border-gray-200 hover:scale-105"
+            class="p-6 leading-7 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:scale-105"
           >
-            <img src="images/icons/js.png" alt="vanilla Javascript" />
+            <img src="images/icons/js.png" alt="JavaScript" />
             <h3 class="font-bold text-xl mt-4">Vanilla JavaScript</h3>
-            <p class="skill-description mt-4">
+            <p class="mt-4">
               JavaScript powers web interactivity, crucial for responsive sites
-              and dynamic applications, enhancing user experience.
+              and dynamic applications.
             </p>
           </div>
           <div
-            class="p-8 leading-7 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:border-gray-200 hover:scale-105"
+            class="p-6 leading-7 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:scale-105"
           >
-            <img src="images/tailwind.jpg" alt="vanilla Javascript" />
+            <img src="images/tailwind.jpg" alt="Tailwind CSS" />
             <h3 class="font-bold text-xl mt-4">Tailwind</h3>
-            <p class="skill-description mt-4">
-              Tailwind CSS: Rapid, flexible styling with utility-first classes
-              for efficient, modern, responsive web development.
+            <p class="mt-4">
+              Tailwind CSS: Rapid, flexible styling for modern, responsive web
+              development.
             </p>
           </div>
           <div
-            class="p-8 leading-7 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:border-gray-200 hover:scale-105"
+            class="p-6 leading-7 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:scale-105"
           >
-            <img src="images/php.png" alt="vanilla Javascript" />
+            <img src="images/php.png" alt="PHP" />
             <h3 class="font-bold text-xl mt-4">PHP</h3>
-            <p class="skill-description mt-4">
-              PHP powers dynamic web pages, seamlessly integrating with HTML,
-              handling data, forms, and databases for interactive websites.
+            <p class="mt-4">
+              PHP powers dynamic web pages, handling forms, data, and databases
+              for interactive websites.
             </p>
           </div>
           <div
-            class="p-8 leading-7 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:border-gray-200 hover:scale-105"
+            class="p-6 leading-7 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:scale-105"
           >
-            <img src="images/icons/react.png" alt="vanilla Javascript" />
+            <img src="images/icons/react.png" alt="React" />
             <h3 class="font-bold text-xl mt-4">Laravel</h3>
-            <p class="skill-description mt-4">
-              Laravel is a free, open-source PHP web framework. Created by
-              Taylor Otwell, it follows the model–view–controller (MVC)
+            <p class="mt-4">
+              Laravel is a PHP web framework following the model–view–controller
               architectural pattern.
             </p>
           </div>
         </div>
       </section>
 
-      <!-- summery of my resume section -->
-      <section class="mt-[130px] max-w-screen-xl mx-auto py-11">
-        <h3 class="text-center font-bold text-4xl mb-20 uppercase">
-          A summary of My Resume
+      <!-- Resume Section -->
+      <section
+        class="mt-10 md:mt-[130px] max-w-screen-xl mx-auto py-8 md:py-11"
+      >
+        <h3
+          class="text-center font-bold text-2xl md:text-4xl mb-10 md:mb-20 uppercase"
+        >
+          A Summary of My Resume
         </h3>
-        <div class="flex gap-[100px]">
+        <div class="flex flex-col lg:flex-row gap-10 md:gap-[100px]">
+          <!-- Education Column -->
           <div class="resume-column">
-            <h3 class="text-gray-700 text-3xl font-bold mb-6">My Education</h3>
+            <h3 class="text-gray-700 text-2xl md:text-3xl font-bold mb-6">
+              My Education
+            </h3>
             <div class="resume-item">
-              <h2 class="text-gray-600 text-2xl font-bold mb-3">
+              <h2 class="text-gray-600 text-xl md:text-2xl font-bold mb-3">
                 Bachelor of Computer Science and Engineering
               </h2>
-              <h3 class="text-gray-500 text-xl font-bold mb-5">
+              <h3 class="text-gray-500 text-lg md:text-xl font-bold mb-5">
                 International University of Business Agriculture and Technology
                 / 2020 - 2023
               </h3>
-              <p class="text-gray-400 text-lg font-thin mb-5">
-                As a recent graduate, I hold a Bachelor's degree in Computer
-                Science and Engineering from the International University of
-                Business Agriculture and Technology, completing my studies in
-                2023.
+              <p class="text-gray-400 text-md font-thin mb-5">
+                I hold a Bachelor's degree in Computer Science and Engineering,
+                where I gained foundational knowledge and practical skills in
+                software development, algorithms, and database management.
               </p>
             </div>
             <hr class="mb-5" />
-            <div class="resume-item">
-              <h2 class="text-gray-600 text-2xl font-bold mb-3">
-                Higher Secondary Certificate
-              </h2>
-              <h3 class="text-gray-500 text-xl font-bold mb-5">
-                Hazi Asmat Government College / 2017 - 2019
-              </h3>
-              <p class="text-gray-400 text-lg font-thin mb-5">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor
-              </p>
-            </div>
-            <hr class="mb-5" />
-            <div class="resume-item">
-              <h2 class="text-gray-600 text-2xl font-bold mb-3">
-                Secondary School Certificate
-              </h2>
-              <h3 class="text-gray-500 text-xl font-bold mb-5">
-                Kalipur High School / 2016 - 2017
-              </h3>
-              <p class="text-gray-400 text-lg font-thin mb-5">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor
-              </p>
-            </div>
           </div>
+
+          <!-- Experience Column -->
           <div class="resume-column">
-            <h3 class="text-gray-700 text-3xl font-bold mb-6">My Experience</h3>
+            <h3 class="text-gray-700 text-2xl md:text-3xl font-bold mb-6">
+              My Experience
+            </h3>
             <div class="resume-item">
-              <h2 class="text-gray-600 text-2xl font-bold mb-3">
-                Sr. Font End Developer
+              <h2 class="text-gray-600 text-xl md:text-2xl font-bold mb-3">
+                Junior Full Stack Laravel Developer
               </h2>
-              <h3 class="text-gray-500 text-xl font-bold mb-5">
-                Apple Inc / 2020 Current
+              <h3 class="text-gray-500 text-lg md:text-xl font-bold mb-5">
+                Rebel IT & Soft Firm / 2024 - Current
               </h3>
-              <p class="text-gray-400 text-lg font-thin mb-5">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor
+              <p class="text-gray-400 text-md font-thin mb-5">
+                As a Junior Full Stack Laravel Developer, I build and maintain
+                web applications using Laravel, PHP, and JavaScript. I work on
+                both front-end and back-end, ensuring smooth functionality and
+                user-friendly interfaces while optimizing performance and
+                security.
               </p>
             </div>
             <hr class="mb-5" />
-            <div class="resume-item">
-              <h2 class="text-gray-600 text-2xl font-bold mb-3">
-                Sr. Font End Developer
-              </h2>
-              <h3 class="text-gray-500 text-xl font-bold mb-5">
-                Dribbble Inc / 2018 2022
-              </h3>
-              <p class="text-gray-400 text-lg font-thin mb-5">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor
-              </p>
-            </div>
-            <hr class="mb-5" />
-            <div class="resume-item">
-              <h2 class="text-gray-600 text-2xl font-bold mb-3">
-                Sr. Font End Developer
-              </h2>
-              <h3 class="text-gray-500 text-xl font-bold mb-5">
-                Adobe Inc / 2017 2018
-              </h3>
-              <p class="text-gray-400 text-lg font-thin mb-5">
-                List skill/technologies here. You can change the icon above to
-                any of the 1500+ FontAwesome 5 free icons available. Aenean
-                commodo ligula eget dolor
-              </p>
-            </div>
           </div>
         </div>
-        <div class="mt-12 text-center" style="">
+
+        <!-- Download CV Button -->
+        <div class="mt-12 text-center">
           <a
             href="images/Akik Hossain.pdf"
             role="button"
@@ -384,6 +351,8 @@
         </div>
       </section>
 
+      <!-- Projects Section -->
+
       <section
         id="projects"
         class="mt-[150px] py-[30px] px-[150px] mb-[100px] container mx-auto"
@@ -391,16 +360,35 @@
         <h3 class="text-center font-bold text-4xl mb-8">PROJECTS</h3>
         <div class="text-center">
           <p class="text-gray-500 text-xl leading-7 mb-8">
-            I have more than 10 years experience building software for clients
-            all over the world. Below is a quick <br />
+            I have experience building software for clients all over the world.
+            Below is a quick
+            <br />
             overview of my main technical skill sets and technologies I use.
-            Want to find out more about my experience? <br />
+            Want to find out more about my experience?
+            <br />
             Check out my online resume and project portfolio.
           </p>
         </div>
         <div
           class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-12 mb-8"
         >
+          <!-- First 6 projects that will be visible by default -->
+          <!-- Project 0 -->
+          <a href="https://deshi-worker.com/" target="_blank" class="block">
+            <div
+              class="flex flex-col justify-between p-8 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:scale-105"
+            >
+              <img
+                src="images/deshi-worker.png"
+                alt="Employee System"
+                class="h-52 w-full object-cover rounded-xl"
+              />
+              <h3 class="font-bold text-xl mt-4 text-center uppercase">
+                Deshi-Worker| Laravel
+              </h3>
+            </div>
+          </a>
+          <!-- Project 1 -->
           <a
             href="https://github.com/akikhossain/Employee-Management-System"
             target="_blank"
@@ -411,7 +399,7 @@
             >
               <img
                 src="images/image.png"
-                alt="Project 1"
+                alt="Employee System"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
@@ -419,6 +407,7 @@
               </h3>
             </div>
           </a>
+          <!-- Project 2 -->
           <a
             href="https://github.com/akikhossain/onlineShop"
             target="_blank"
@@ -429,7 +418,7 @@
             >
               <img
                 src="images/image2.png"
-                alt="Project 2"
+                alt="E-Commerce Shop"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
@@ -437,6 +426,7 @@
               </h3>
             </div>
           </a>
+          <!-- Project 3 -->
           <a
             href="https://github.com/akikhossain/quizsystem"
             target="_blank"
@@ -447,28 +437,30 @@
             >
               <img
                 src="images/image15.png"
-                alt="Project 2"
+                alt="Quiz System"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                QUIZ SYSTEM | Laravel
+                Quiz System | Laravel
               </h3>
             </div>
           </a>
+          <!-- Project 4 -->
           <a href="http://akikhossain.me/MyTube/" target="_blank" class="block">
             <div
               class="flex flex-col justify-between p-8 hover:bg-gray-600 hover:text-white shadow-xl transform rounded-xl bg-white transition duration-1000 hover:scale-105"
             >
               <img
                 src="images/image3.png"
-                alt="Project 3"
+                alt="My Tube"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                MY TUBE | REACT
+                My Tube | React
               </h3>
             </div>
           </a>
+          <!-- Project 5 -->
           <a
             href="https://652fc06dfd970b09a6df59ff--careerhubbyreact.netlify.app/"
             target="_blank"
@@ -479,14 +471,23 @@
             >
               <img
                 src="images/image14.png"
-                alt="Project 3"
+                alt="Career Hub"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                Career Hub | REACT
+                Career Hub | React
               </h3>
             </div>
           </a>
+        </div>
+
+        <!-- Hidden projects that will be shown when "See More" is clicked -->
+        <div
+          id="moreProjects"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-12 mb-8 hidden"
+        >
+          <!-- Project 6 to 15 -->
+          <!-- Project 6 -->
           <a
             href="http://akikhossain.me/Phone-Hunter-API/"
             target="_blank"
@@ -497,7 +498,7 @@
             >
               <img
                 src="images/image4.png"
-                alt="Project 3"
+                alt="Phone Hunter"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
@@ -505,6 +506,7 @@
               </h3>
             </div>
           </a>
+          <!-- Project 7 -->
           <a
             href="http://akikhossain.me/Shop-Craze/"
             target="_blank"
@@ -515,14 +517,15 @@
             >
               <img
                 src="images/image5.png"
-                alt="Project 3"
+                alt="Shop Craze"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                Shop-Craze | javascript
+                Shop Craze | JavaScript
               </h3>
             </div>
           </a>
+          <!-- Project 8 -->
           <a
             href="http://akikhossain.me/Simple-Bank-Manager-Monitor-Deposits-and-Withdrawals/"
             target="_blank"
@@ -533,14 +536,15 @@
             >
               <img
                 src="images/image6.png"
-                alt="Project 3"
+                alt="Bank Manager"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                Bank Manager | Javascript
+                Bank Manager | JavaScript
               </h3>
             </div>
           </a>
+          <!-- Project 9 -->
           <a
             href="http://akikhossain.me/Geometric-Guru/"
             target="_blank"
@@ -551,14 +555,15 @@
             >
               <img
                 src="images/image7.png"
-                alt="Project 3"
+                alt="Geometric Guru"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                Geometric-Guru | Javascript
+                Geometric Guru | JavaScript
               </h3>
             </div>
           </a>
+          <!-- Project 10 -->
           <a
             href="http://akikhossain.me/Fruit-Brust-with-Daisy-UI/"
             target="_blank"
@@ -569,14 +574,15 @@
             >
               <img
                 src="images/image8.png"
-                alt="Project 3"
+                alt="Fruit Burst"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                Fruit-Brust
+                Fruit Burst
               </h3>
             </div>
           </a>
+          <!-- Project 11 -->
           <a
             href="http://akikhossain.me/Tea-House-with-Daisy-UI/"
             target="_blank"
@@ -587,14 +593,15 @@
             >
               <img
                 src="images/image9.png"
-                alt="Project 3"
+                alt="Tea House"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                Tea House | tailwind
+                Tea House | Tailwind
               </h3>
             </div>
           </a>
+          <!-- Project 12 -->
           <a
             href="http://akikhossain.me/Biker-Zone-Project-with-Daisy-UI/"
             target="_blank"
@@ -605,14 +612,15 @@
             >
               <img
                 src="images/image10.png"
-                alt="Project 3"
+                alt="Biker Zone"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                Biker Zone | tailwind
+                Biker Zone | Tailwind
               </h3>
             </div>
           </a>
+          <!-- Project 13 -->
           <a
             href="http://akikhossain.me/GameZoneHub/"
             target="_blank"
@@ -623,7 +631,7 @@
             >
               <img
                 src="images/image11.png"
-                alt="Project 3"
+                alt="Game Zone Hub"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
@@ -631,6 +639,7 @@
               </h3>
             </div>
           </a>
+          <!-- Project 14 -->
           <a
             href="http://akikhossain.me/influence-gear/"
             target="_blank"
@@ -641,14 +650,15 @@
             >
               <img
                 src="images/image12.png"
-                alt="Project 3"
+                alt="Influence Gear"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                Influencer Gear
+                Influence Gear
               </h3>
             </div>
           </a>
+          <!-- Project 15 -->
           <a
             href="http://akikhossain.me/Legal-Solution-with-Daisy-UI/"
             target="_blank"
@@ -659,14 +669,25 @@
             >
               <img
                 src="images/image13.png"
-                alt="Project 3"
+                alt="Legal Solution"
                 class="h-52 w-full object-cover rounded-xl"
               />
               <h3 class="font-bold text-xl mt-4 text-center uppercase">
-                legal solution | tailwind
+                Legal Solution | Tailwind
               </h3>
             </div>
           </a>
+        </div>
+
+        <!-- See More Button -->
+        <div class="text-center mt-6">
+          <button
+            id="seeMoreBtn"
+            class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 transition duration-300"
+            onclick="toggleProjects()"
+          >
+            See More
+          </button>
         </div>
       </section>
     </main>
@@ -764,6 +785,20 @@
       crossorigin="anonymous"
     ></script>
 
+    <script>
+      function toggleProjects() {
+        const moreProjects = document.getElementById("moreProjects");
+        const seeMoreBtn = document.getElementById("seeMoreBtn");
+
+        if (moreProjects.classList.contains("hidden")) {
+          moreProjects.classList.remove("hidden");
+          seeMoreBtn.innerText = "See Less";
+        } else {
+          moreProjects.classList.add("hidden");
+          seeMoreBtn.innerText = "See More";
+        }
+      }
+    </script>
     <script>
       // JavaScript to trigger the fade-in and fade-out animation
       const fadeInOutImage = document.getElementById("fadeInOutImage");
